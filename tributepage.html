@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. A. P. J. Abdul Kalam</title>
+    <style>
+        /* Styling the body element */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Main content styles */
+        #main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Fading effect for text */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tribute to Dr.C.V.Raman</h1>
+        <div >
+            <span style="margin-top:200px;"><h2 class="head" >Sir Chandrasekhara Venkata Raman </h2></span>
+        </div>
+        
+    </header>
+    
+    <div id="main-content">
+        <p style="margin-left: 350px;margin-bottom:-50px;font-size: 20px;font-family:Georgia, 'Times New Roman', Times, serif;">Sir Chandrasekhara Venkata Raman</p>
+        <p style="margin-left: 350px;padding-top:50px;font-size: 20px;font-family:Georgia, 'Times New Roman', Times, serif;">07-11-1888 – 21-11-1970</p>
+
+        <img  src="image/cvraman.jpg" alt="c.v.raman">
+        
+        <p class="fade-in">
+                 Sir Chandrasekhara Venkata Raman FRS ( 7 November 1888 – 21 November 1970) was an Indian physicist known for his work in the field of light scattering.[2] Using a spectrograph that he developed, he and his student K. S. Krishnan discovered that when light traverses a transparent material, the deflected light changes its wavelength and frequency.        </p>
+        <p class="fade-in">
+            This phenomenon, a hitherto unknown type of scattering of light, which they called "modified scattering" was subsequently termed the Raman effect or Raman scattering. Raman received the 1930 Nobel Prize in Physics for the discovery and was the first Asian to receive a Nobel Prize in any branch of science.[3]        </p>
+            <p class="fade-in">
+                Born to Tamil Brahmin parents, Raman was a precocious child, completing his secondary and higher secondary education from St Aloysius' Anglo-Indian High School at the age of 11 and 13, respectively. He topped the bachelor's degree examination of the University of Madras with honours in physics from Presidency College at age 16. 
+            </p>
+            <p class="fade-in">
+                He topped the bachelor's degree examination of the University of Madras with honours in physics from Presidency College at age 16. His first research paper, on diffraction of light, was published in 1906 while he was still a graduate student. 
+
+            </p>
+            <p class="fade-in">
+                The next year he obtained a master's degree. He joined the Indian Finance Service in Calcutta as Assistant Accountant General at age 19. There he became acquainted with the Indian Association for the Cultivation of Science (IACS), the first research institute in India, which allowed him to carry out independent research and where he made his major contributions in acoustics and optics.
+            </p>
+            <p class="fade-in">
+                In 1917, he was appointed the first Palit Professor of Physics by Ashutosh Mukherjee at the Rajabazar Science College under the University of Calcutta. On his first trip to Europe, seeing the Mediterranean Sea motivated him to identify the prevailing explanation for the blue colour of the sea at the time, namely the reflected Rayleigh-scattered light from the sky, as being incorrect.
+            </p>
+            <p class="fade-in">
+                founded the Indian Journal of Physics in 1926. He moved to Bangalore in 1933 to become the first Indian director of the Indian Institute of Science. He founded the Indian Academy of Sciences the same year. He established the Raman Research Institute in 1948 where he worked to his last days.
+            </p>
+            <p class="fade-in">
+                The Raman effect was discovered on 28 February 1928. The day is celebrated annually by the Government of India as the National Science Day.
+            </p>
+            <p>
+                
+            </p>
+    </div>
+    <script>
+        // Add fading effect to text
+        const fadeElements = document.querySelectorAll('.fade-in');
+        fadeElements.forEach((element, index) => {
+            element.style.animationDelay = `${index * 0.5}s`;
+        });
+    </script>
+</body>
+</html>

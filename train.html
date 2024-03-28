@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSON Operations</title>
+</head>
+<body>
+    <h2>JSON Operations</h2>
+    <div id="output"></div>
+    <button onclick="insertItem()">Insert Item</button>
+    <button onclick="viewItem()">View Item</button>
+
+    <script>
+        // Sample JSON object
+        let jsonData = {
+            "items": [
+                {"id": 1, "name": "Item 1"},
+                {"id": 2, "name": "Item 2"},
+                {"id": 3, "name": "Item 3"}
+            ]
+        };
+
+        // Function to insert an item into the JSON object
+        function insertItem() {
+            let newItem = {"id": 4, "name": "Item 4"}; // New item to be inserted
+            jsonData.items.push(newItem);
+            updateOutput();
+        }
+
+        // Function to view an item from the JSON object
+        function viewItem() {
+            let itemId = 2; // ID of the item to view
+            let item = jsonData.items.find(item => item.id === itemId);
+            if (item) {
+                alert("Item ID: " + item.id + "\nItem Name: " + item.name);
+            } else {
+                alert("Item not found.");
+            }
+        }
+
+        // Function to update the output div with JSON data
+        function updateOutput() {
+            document.getElementById("output").innerText = JSON.stringify(jsonData, null, 2);
+        }
+
+        // Initial update of the output div
+        updateOutput();
+    </script>
+</body>
+</html>

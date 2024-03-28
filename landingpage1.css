@@ -1,0 +1,156 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+
+
+*{
+    margin:0;
+    padding:0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  .navbar {
+    background-color: #8B0000;
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .jumbotron {
+    background-image: url(image/azure-productions-49uTalO3xa8-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 25px;
+    margin-bottom: 0;
+  }
+
+.jumbotron a:hover{
+    box-shadow: 0pc 0px 20px aqua;
+}
+
+  .jumbotron h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  }
+  .jumbotron p {
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+  @media (max-width: 768px) {
+    .jumbotron h1 {
+      font-size: 2.5rem;
+    }
+    .jumbotron p {
+      font-size: 1rem; 
+    }
+  }
+  #image{
+    margin-left: 600px;
+    padding-bottom: 30px;
+  }
+
+
+  ul li a:hover{
+    border-bottom: 2px white solid;
+  }
+
+  .about-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+.about-content {
+
+  margin-top: -350px;
+  max-width: 900px;
+    
+}
+
+.about-content p{
+    font-weight: bolder;
+}
+
+ h2{
+    
+
+}
+h2:hover{
+    color: red;
+}
+
+.about-content h2{
+    padding-bottom: 20px;
+}
+.services h2{
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+.services {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  .service-item {
+    text-align: center;
+  }
+  .service-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .service-item h3 {
+    color: #ff0101;
+  }
+  @media (max-width: 768px) {
+    .services {
+      padding: 30px 0;
+    }
+  }
+
+
+ .services p{
+    color: #fff;
+    
+ }
+
+
+ 
+.contact{
+    padding-left: 40px;
+}
+
+input[type=submit]{
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+input[type=submit]:hover{
+    box-shadow: 0px 0px 20px aqua;
+}
+
+
+.para2{
+    padding-left: 450px;
+    margin-top:-250px;
+    font-weight: bold;
+}
+
+#img1:hover{
+
+  transform:scale(1.01);
+
+}
+#img2:hover{
+
+  transform:scale(1.01);
+
+}
+#img3:hover{
+
+  transform:scale(1.01);
+
+}

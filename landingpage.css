@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+   font-weight: bold;
+   padding-left:50px;
+   line-height:50px;
+   font-size: 30px;
+   padding-right: 549px;
+}
+
+.navbar ul{
+    float: right;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar ul li{
+
+    display: inline-block;
+    padding-top: 10px;
+    padding:20px;
+    border-radius: 5px;
+    
+    
+}
+
+.navbar ul li:hover{
+    color:royalblue;
+    background-color: gainsboro;
+}
+
+
+
+.navbar ul {
+
+    background-image:linear-gradient(white,rgb(255, 201, 201),rgb(238, 186, 186));
+}
+.navbar{
+    background-color:rgb(190, 190, 232);
+}
+
+.info{
+
+    padding-top: 30px;
+    background-image:radial-gradient(rgb(255, 188, 200),rgb(185, 110, 123))
+}
+
+.info i{
+    margin-bottom:10px;
+    padding-left: 15px;
+    height:20px;
+    color: black;
+    border-left:2px black solid;
+    size: 30px;
+    font-size: 20px;
+    
+    
+}
+
+.name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+
+
+
+.image{
+    width: 100%;
+    height: 40%;
+}
+
+.contact{
+    
+    font-weight: 10px;
+    padding-left: 2px;
+   
+}
+
+.bannercard{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.image-text{
+    position: absolute;
+    top: 0;
+    padding-top:200px;
+    color: black;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    
+
+}
+
+
+.list li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+.btn1{
+    background: transparent;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+}
+
+
+
+.btn2{
+    background: transparent;
+    background-color: transparent;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border-color: white;
+    color: white;
+}
+
+.navbar ul li:hover{
+    color:royalblue;
+    background-color: gainsboro;
+}
+
+.information ul li{
+    background-image: linear-gradient(rgb(91, 97, 89),rgb(0, 0, 0));
+    padding: 0 0 100 0;
+    
+    
+
+}
+
+
+.information ul li{
+    display: flex;
+    float: left;
+    padding:77.5px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    color: white;
+}
+
+.information{
+    margin-bottom: 200px;
+    background-color:rgb(255, 68, 0);
+}
+
+.ab{
+    padding-bottom:30px;
+    padding-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid;
+    
+}
+
+.para{
+    padding-left: 50px;
+    padding-top:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+.page{
+    padding-bottom: 150px;
+}
+
+.aboutus{
+    position: relative;
+
+}
+
+.empty{
+    margin-top:-48px;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+}
+.readmore{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin-bottom:0px;
+   
+}
+
+.ic{
+    padding-left: 550px;
+    padding-top: 30px;
+    height: 20px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 50px;
+   
+    
+}
+
+
+
+
+.footer{
+    background-color: grey;
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(180deg ,rgb(247, 167, 180),rgb(213, 149, 160));
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0, 100%, -25), inset -2px -2px -2px hsla(0,0,0,-25);
+}
+
+::-webkit-scrollbar-track{
+    background: linear-gradient(90deg,black,rgb(82, 47, 47));
+}

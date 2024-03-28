@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.logo{
+    cursor: pointer;
+    padding-top: 5px;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    display: flex;
+    padding: 0px 50px;
+    transform: skew(-25deg);
+    border: solid;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+nav ul li:first-child{
+    border-radius: 7px 0 0 7px;
+
+}
+nav ul li:last-child{
+    border-radius:0 7px 7px 0 ;
+}
+
+li a:hover{
+    color: blueviolet;
+    border-bottom: 2px black solid;
+}
+li a:active{
+    background: repeating-radial-gradient(blueviolet,green,yellow,aliceblue);
+
+}
+nav ul li:hover{
+    background-color: aqua;
+
+}

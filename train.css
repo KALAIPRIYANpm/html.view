@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ a{
+    float: right;
+    padding: 15px 10px;
+    display:inline-block;
+    margin:0px 50px;
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border-top: 30px;
+
+}
+.logo{
+    line-height: 50px;
+    padding-left:75px;
+    text-size-adjust: 30px;
+
+}
+a:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: bisque;
+    
+
+}
+p{
+    scroll-behavior: smooth;
+    scroll-margin-bottom: 40px;
+}
+    
+    

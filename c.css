@@ -1,0 +1,44 @@
+h1{
+    color:black;
+    font-style:italic;
+}
+span{
+    font-weight: bold;
+}
+p{
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    height: 800px;
+    width: 800px;
+    background:linear-gradient(red,yellow,green,blue);
+
+background: linear-gradient(to top left,red,blue);
+background:radial-gradient(red,blue);
+background-position: center;
+margin-left: 200px;
+background:repeating-radial-gradient(yellow 5%,red 15%,black 20%,orange 30%);
+background:repeating-conic-gradient(yellow 5%,red 15%,black 20%,orange 30%);
+
+}
+ul li{
+    list-style-type: none;
+}
+
+ul li::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+    background-color: brown;
+    list-style-image:url(image/MEC-Logo.png);
+
+
+}
+div{
+    background-color: brown;
+}

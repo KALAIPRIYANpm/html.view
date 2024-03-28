@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Event Proposal</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="form.js"></script> <style>
+ .container {
+ margin-top: 50px;
+ }
+
+
+ span{
+    color: red;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <div class="row">
+ <div class="col-md-6 offset-md-3">
+ <div class="card">
+ <div class="card-header">
+ <h5 class="card-title" style="color: rgb(116, 17, 146);">STUDENT MOTIVATION FOR PAPER PRESENTATION, PROJECT SUBMISSION AND OTHER CONTEST</h5>
+ </div>
+ <div class="card-body">
+ <form onsubmit="return validate()" name="sesta">
+ <div class="form-group">
+ <label for="facultyName" id="academic_year">Academric Year</label>
+ <select class="form-control" name="ay">
+    <option>Select the Year</option>
+    <option>2022-23</option>
+    <option>2023-24</option>
+ </select>
+ </div>
+ <div class="form-group">
+    <label for="facultyName" id="Semester">Semester</label>
+    <select class="form-control" name="sem">
+       <option>Select the Semester</option>
+       <option>ODD</option>
+       <option>EVEN</option>
+    </select>
+    </div>
+ <div class="form-group">
+ <label>Name of the Faculty<span id="fnerror"></span></label>
+ <input type="text" class="form-control" name="facname" id="facultyName" placeholder="Enter the faculty name">
+ </div>
+ <div class="form-group">
+ <label>Name Of the Student<span id="snerr"></span></label>
+ <input type="text" class="form-control" name="stuname" id="studentName" placeholder="Enter the student name">
+ </div>
+ <div class="form-group">
+ <label>Contest</label>
+ <input type="text" class="form-control" id="contest" name="con" placeholder="Enter the Contest Name">
+ </div>
+ <div class="form-group">
+ <label>Paper Presentation</label>
+ <input type="text" class="form-control" id="paperPresentation" name="pp" placeholder="Enter the Topic Name">
+ </div>
+ <div class="form-group">
+ <label >Project Presentation</label>
+ <input type="text" class="form-control" id="projectPresentation"  name="pro" placeholder="Enter the Topic Name">
+ </div>
+ <div class="form-group">
+    <label>Other Contest</label>
+    <input type="text" class="form-control" id="othercontest" name="formgroup" placeholder="Enter the Topic Name"/>
+ </div>
+ <div class="form-group">
+    <label>
+        Date
+    </label>
+    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+ </div>
+ <div class="form-group">
+    <label>No. of Beneficiaries</label>
+    <input type="text" class="form-control" id="noofBeneficiaries" name="nob" placeholder="Enter the Number">
+ </div>
+ <div class="m-2 row justify-content-around">
+    <button type="submit" class="btn btn-primary" value="sesta" onclick="return validate()">Submit</button>
+    <button type="reset" class="btn btn-danger">Clear</button>
+
+ </div>
+   
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+</body>
+</html>

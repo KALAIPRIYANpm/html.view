@@ -1,0 +1,18 @@
+div{
+    background: blue;
+    height: 250px;
+    width: 500px;
+    background:-webkit-linear-gradient(red,orange,blue)
+
+}
+#name{
+     color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+.idiot{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    color: brown;
+}

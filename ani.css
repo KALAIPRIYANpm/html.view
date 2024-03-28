@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background: grey;
+}
+
+nav ul{
+    float: right;
+    font-family: 'Times New Roman';
+}
+
+nav ul li{
+    display: inline-block;  
+    padding-top: 10px;
+    margin: 0px 20px;
+    margin-top: 30px;
+}
+.logo{
+    color: brown;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    line-height: 50px;
+}
+ul li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: aliceblue;
+
+}
+li a:hover{
+    color: black;
+
+}
+nav a:hover{
+    border-bottom: 2px black solid;
+    background-color: burlywood;
+
+}
+@media (max-width:746px){
+    nav ul{
+        position:fixed;
+        left:0;
+        width: 100%;
+        height:100vh;
+        background-color: darkslateblue;
+        padding-left:  80px; 
+        text-align: center;
+        padding: 0px;
+    }
+    nav ul li{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+    nav ul li:hover{
+        background-color: black;
+    }
+    ul li a{
+        padding: 0px 100px;
+    }
+    .hamburger{
+        float: right;
+    }
+    .hamburger .line{
+        width: 15px;
+        height: 5px ;
+        background-color: white;
+    }
+}
+
+
+.font{
+    padding-left: 750px;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.spinner{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    align-items: center;
+    margin-left: 800px;
+    border-radius: 150px;
+    border: 6px  black solid;
+    border-color: black transparent black transparent;
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate{
+    to{
+transform: rotate(360deg);
+    }
+}
